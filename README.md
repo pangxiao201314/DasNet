@@ -7,3 +7,4 @@ sion) and AutoPruner(Autopruner: An end-to-end trainable ﬁlter pruning method 
 ![figure 1](https://github.com/pangxiao201314/DasNet/blob/master/table1.png)
 ![figure 2](https://github.com/pangxiao201314/DasNet/blob/master/figure2.png)
 From the Figure 1 we can see that the experimental results of the all methods are similar,but the DasNet is slightly better. In addition to inference parameter efﬁciency, another direct evaluation criterion is the amount of ﬂoating-point operations, which is a popular metric to evaluate the complexity of CNN models. Figure 2 shows the ﬂoating-point calculations of DasNet and other 3 pruning methods while using different sized network. Dataset used is CatVsDog. Our method improves floating-point operations better.
+![figure 3](https://github.com/pangxiao201314/DasNet/blob/master/figure3.png)
